@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <title>The Quizz</title>
+</head>
+
+<body>
+      <!-- top section -->
+      <section class="bg-image text-center shadow-1-strong text-white"
+      style="background-image: url('./img/graduates.jpg');background-repeat: no-repeat; background-size: cover; height: 350px;">
+      <div class="intro py-5 text-center">
+      <div class="container">
+        <h2 class="text-light display-2 my-2">Entery Quiz</h2>
+      </div>
+    </div>
+</section>
+
+  <!-- result section -->
+  <div class="result py-4 d-none text-center">
+    <div class="constainer lead">
+      <p>Your result: <span class="text-primary display-4 p-3 percentage">0%</span></p>
+      <h3 class="text-success d-none valid lead">Congrat!<i class="bi bi-emoji-smile"></i></h3>
+      <h3 class="text-danger d-none invalid lead">Better luck next time <i class="bi bi-emoji-frown"></i></h3>
+    </div>
+  </div>
+
+  <!-- quizz section -->
+    <div class="quiz py-4">
+      <div class="container ">
+        <h2 class="my-4 text-warning display-4 text-center main-text">On with the questions...</h2>
+        <div class="home-btn text-center d-none">
+          <a href="index.html" class="btn btn-lg btn-outline-success ">Go back to the home page</a>
+        </div>
+        <div class="suivant-btn text-center d-none">
+          <a href="candidature.html" class="btn btn-lg btn-outline-success">suivant <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+        <form class="quiz-form text-dark">
+          <div class="my-5">
+            <p class="lead fw-normal">1. Lequel des langages informatiques suivants est utilisé pour l’intelligence artificielle?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q1" value="a">
+              <label for="" class="form-check-label">C</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q1" value="b">
+              <label for="" class="form-check-label">PROLOG</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">2. Le cerveau de tout système informatique est _________?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q2" value="a">
+              <label for="" class="form-check-label">Mémoire </label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q2" value="b">
+              <label for="" class="form-check-label">CPU </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">3. Lequel des circuits suivants est utilisé comme « Périphériques de mémoire » sur les ordinateurs?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q3" value="a">
+              <label for="" class="form-check-label"> Comparator</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q3" value="b">
+              <label for="" class="form-check-label">Flip Flop</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">4. Le microprocesseur a été introduit dans quelle génération d’ordinateur?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q4" value="a">
+              <label for="" class="form-check-label"> Deuxième génération</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q4" value="b">
+              <label for="" class="form-check-label">Quatrième génération</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">5. Une erreur est aussi appelée _________?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q5" value="a">
+              <label for="" class="form-check-label">Debug</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q5" value="b">
+              <label for="" class="form-check-label">Bug </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">6. Le système binaire utilise la base ______?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q6" value="a">
+              <label for="" class="form-check-label">8</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q6" value="b">
+              <label for="" class="form-check-label">2 </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">7. Lequel des langages suivants est mieux adapté au programmation structuré?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q7" value="a">
+              <label for="" class="form-check-label">PL/SQL</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q7" value="b">
+              <label for="" class="form-check-label"> PASCAL</label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">8. ASCII signifie _______?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q8" value="a">
+              <label for="" class="form-check-label">All purpose scientific code for information interchange</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q8" value="b">
+              <label for="" class="form-check-label">American standard code for information interchange </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">9. Le temps pendant lequel une tâche est traitée par l’ordinateur est appelé _______?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q9" value="a">
+              <label for="" class="form-check-label"> Temps d’attente</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q9" value="b">
+              <label for="" class="form-check-label">Temps d’exécution </label>
+            </div>
+          </div>
+          <div class="my-5">
+            <p class="lead fw-normal">10. L’unité du CPU qui sélectionne, interprète l’exécution des instructions d’un programme s’appelle______?</p>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q10" value="a">
+              <label for="" class="form-check-label">Unité d’enregistrement</label>
+            </div>
+            <div class="form-check my-2 text-dark">
+              <input type="radio" name="q10" value="b">
+              <label for="" class="form-check-label">Unité arithmétique et logique – UAL </label>
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" class="btn btn-outline-success btn-lg">
+          </div>
+        </form>
+      </div>
+    </div>
+  <!-- footer -->
+  <footer class="bg-light text-center position-relative ">
+    <div class="container pt-3" style="height: 85px">
+      <p class="lead fs-2 px-5">Copyright © 2021 Amine Moustaqssa</p>
+    </div>
+  </footer>
+  <script src="scriptt.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
